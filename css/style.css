@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 160px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 195px;
+}
+
+.logo img {
+    width: 180px;
+    height: 50px;
+}
+
+.menu-list {
+    display: flex;
+    padding: 0;
+    align-items: center
+}
+
+.menu-list li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+.menu-list a {
+    font-size: 15px;
+    color: #bab8b8;
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu-list a:hover {
+    color: #4497f3;
+    font-weight: bold;
+}
+
+.menu-list button {
+    background-color: inherit;
+    border: 2px solid #3984f3;
+    width: 150px;
+    height: 55px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3984f3;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-section>div {
+    padding: 255px 0px ;
+}
+
+.header-section h1 {
+    font-size: 53px;
+    color: #091e40;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+.header-section p {
+    font-size: 15px;
+    color: #091e40;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.7;
+    margin: 75px 8px 100px;
+}
+
+.header-section button {
+    background-color: #3984f3;
+    width: 200px;
+    height: 55px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1000px;
+}
+
+.container {
+    background-image: url("../images/header_bg_left.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: -60px 800px;
+
+}
+
+.header-section-right  img{
+    width: 1034px;
+    height: 1000px;
+}
