@@ -15,8 +15,14 @@ a {
 
 .container {
     max-width: 1920px;
+    height: 1360px;
     margin: 0 auto;
     padding: 0px 160px;
+    background-image: url("../images/header_bg_left.png"), url("../images/header_bg_right.png");
+    background-size: 300px,  1034px ; 
+    background-repeat: no-repeat, no-repeat;
+    background-position: -60px 860px, right;
+    
 }
 
 .header__inner {
@@ -78,7 +84,7 @@ a {
     margin: 0px;
 }
 
-.header-section p {
+.header-section p, .container-section1 p {
     font-size: 15px;
     color: #091e40;
     font-family: 'Nunito', sans-serif;
@@ -86,11 +92,12 @@ a {
     margin: 75px 8px 100px;
 }
 
-.header-section button {
+.blue-button {
     background-color: #3984f3;
     width: 200px;
     height: 55px;
     padding: 0px;
+    border: none;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
@@ -105,15 +112,184 @@ a {
     height: 1000px;
 }
 
-.container {
-    background-image: url("../images/header_bg_left.png");
-    background-size: 300px;
+.container-section1 {
+    max-width: 1920px;
+    height: 850px;
+    padding: 0px 160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 850px;
+} 
+
+.container-section1 h3{
+    font-size: 35px;
+    color: #091e40;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+ 
+.blue-line {
+    width: 80px;
+    padding-top: 40px;
+}
+
+.section__inner p {
+    margin: 60px 0px;
+}
+
+.slider-text {
+    margin: 0px 20px;
+}
+
+.slider {
+    padding-top: 0px;
+    margin-left: -190px;
+    
+}
+
+.slider-display-container {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.mySlides {
+    flex: 0 0 33.333333%;
+    width: 370px;
+    height: 500px;
+    padding: 20px;
+  }
+
+.nav-button {
+    margin: 20px 185px;
+    
+}
+
+.nav-button  a {
+    margin-right: 20px;
+}
+
+.center {
+    margin-bottom: 60px;
+    margin-top: -60px;
+}
+/* ________________________ */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 300px;
+  }
+
+  .slider-display-container {
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  .mySlides {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+.container-section5 {
+    max-width: 1920px;
+    height: 900px;
+    margin: auto;
+    padding: 0px 160px;
+    background-image: url("../images/mountain-bg.jpg");
+    background-size: 100%; 
     background-repeat: no-repeat;
-    background-position: -60px 800px;
-
+}
+.center-text {
+    padding-top: 20vh;
+    padding-bottom: 85px;
 }
 
-.header-section-right  img{
-    width: 1034px;
-    height: 1000px;
+.center-text h3, h2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
 }
+
+.center-text h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#form select, input{
+    background-color: rgba(1,1,1,0.5);
+    border: none;
+    width: 350px;
+    height: 70px;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#form input{
+    background-image: url(/images/calendar-icon.png);
+    background-repeat: no-repeat;
+    background-position: 300px 25px;
+}
+
+.submit-button {
+    width: 350px;
+    height: 70px;
+}
+
+.footer {
+    max-width: 1920px;
+    height: 295px;
+    padding: 0px 160px;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footer .menu-list {
+    justify-content: center;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    color:#2b323a;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.footer span {
+    font-size: 13px;
+    color:#c6c6c6; 
+}
+
+.massenger-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center
+}
+    
+.massenger-list li {
+    list-style: none;
+    padding: 10px;
+}  
+
